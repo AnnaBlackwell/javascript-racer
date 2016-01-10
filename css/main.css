@@ -3,7 +3,7 @@
   width: 30px;
   border-style: solid;
   border-width: 2px;
-  border-color: #E1DEE3;
+  border-color: #e1dee3;
 }
 
 .racer_table {
@@ -15,7 +15,7 @@
 }
 
 .racer_table td.inactive {
-  background-color: white;
+  background-color: #e1dee3;
 }
 
 html {
@@ -41,6 +41,10 @@ ul li {
 }
 
 .button:hover {
-  background-color: #828A95;
+  background-color: #828a95;
 }
 
+.label {
+  text-align: center;
+  background-color: white;
+}

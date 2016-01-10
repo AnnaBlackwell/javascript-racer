@@ -11,9 +11,8 @@
   </head>
 
   <body>
-    <script src="/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
     <h1>Javascript Racer</h1>
-
     <h2>How to play:</h2>
     <ul>
       <li>
@@ -29,6 +28,7 @@
 
     <table class="racer_table">
       <tr id="player1_strip">
+        <td class="label">1</td>
         <td id="p1square1" class="active"></td>
         <td id="p1square2" class="inactive"></td>
         <td id="p1square3" class="inactive"></td>
@@ -41,6 +41,7 @@
         <td id="p1square10" class="inactive"></td>
       </tr>
       <tr id="player2_strip">
+        <td class="label">2</td>
         <td id="p2square1" class="active"></td>
         <td id="p2square2" class="inactive"></td>
         <td id="p2square3" class="inactive"></td>
@@ -53,6 +54,6 @@
         <td id="p2square10" class="inactive"></td>
       </tr>
     </table>
-    <button class="button" type="button">Reset</button>
+    <button id="button" class="button" type="button">Reset</button>
   </body>
 </html>
